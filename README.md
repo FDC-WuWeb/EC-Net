@@ -30,3 +30,6 @@ pip install torch==1.7.1+cu110 -f https://download.pytorch.org/whl/torch_stable.
 pip install -r requirements.txt
 ```
 Code has been tested with Ubuntu 20.04, Python 3.8, PyTorch 1.7, and CUDA 11.8.
+
+## Pre-trained Weights
+We provide pre-trained weights in the release page. Please download the latest weights and put them in weights-adam directory.

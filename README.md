@@ -1,6 +1,6 @@
 # EC-Net: Edge-guided and Correspondence-constrained Network for Laparoscopic Low-Overlap Point Cloud Registration (ESWA-D-26-10668)
 <div align="center">
-  <img src="/fig1.svg">
+  <img src="/Fig1.svg">
 </div>
 This repository provides the implementation of EC-Net, an end-to-end deep learning framework designed to registering organ surface point clouds reconstructed separately from preoperative CT and intraoperative video for Laparoscopic Augmented Reality.
 

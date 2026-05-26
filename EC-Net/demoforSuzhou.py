@@ -67,7 +67,7 @@ def main(num):
         "ref_feats": ref_feats.astype(np.float32),
         "src_feats": src_feats.astype(np.float32),
     }
-    transform = np.load('../../data/demo/Suzhou/transform_'+num+'.npy')
+    transform = np.load('demo/Suzhou/transform_'+num+'.npy')
     data_dict["transform"] = transform.astype(np.float32)
 
     neighbor_limits = [39, 26, 34, 27]

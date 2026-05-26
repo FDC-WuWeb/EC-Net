@@ -13,3 +13,20 @@ Due to the narrow field of view and large organ deformations, exsiting registrat
 ⚡ KAN Architecture: Utilizes the Kolmogorov-Arnold Network to capture large deformations with highly efficient parameters.
 
 Performance: Compared with SOTA methods, EC-Net significantly boosts accuracy (up to +36%) and speed (up to +20%), while demonstrating excellent generalization and noise robustness for clinical deployment.
+
+## News
+2026.05.26: Code have been released.
+
+## Installation
+Please use the following command for installation.
+```
+#It is recommended to create a new environment
+conda create -n EC-Net python==3.8
+conda activate EC-Net
+
+pip install torch==1.7.1+cu110 -f https://download.pytorch.org/whl/torch_stable.html
+
+#Install packages and other dependencies
+pip install -r requirements.txt
+```
+Code has been tested with Ubuntu 20.04, Python 3.8, PyTorch 1.7, and CUDA 11.8.

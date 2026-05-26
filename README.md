@@ -14,6 +14,9 @@ Due to the narrow field of view and large organ deformations, exsiting registrat
 
 Performance: Compared with SOTA methods, EC-Net significantly boosts accuracy (up to +36%) and speed (up to +20%), while demonstrating excellent generalization and noise robustness for clinical deployment.
 
+<div align="center">
+  <img src="/Fig2.svg">
+</div>
 ## News
 2026.05.26: Code have been released.
 
